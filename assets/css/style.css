@@ -45,6 +45,8 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  /* không xuống dòng */
+  white-space: nowrap;
 }
 .navbar__list {
   display: flex;
@@ -55,7 +57,7 @@ a {
 }
 .header__action--login,
 .navbar__link {
-  padding: 8px 42px;
+  padding: 8px 21px;
   color: #c9d2da;
   text-align: center;
   font-size: 1.6rem;
