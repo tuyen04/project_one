@@ -421,3 +421,34 @@ a {
   margin-top: 38px;
   justify-content: center;
 }
+/* ============== mobile ==============================*/
+.install__inner {
+  margin: 180px 0 85px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 70px;
+  height: 427px;
+  border-radius: 4px;
+  background: #2e80ce;
+}
+.install__img {
+  width: 284px;
+  height: 522px;
+  margin-top: -95px;
+  margin-right: 160px;
+}
+.install__heading {
+  max-width: 489px;
+  color: #fff;
+}
+.install__desc {
+  min-width: 586px;
+  color: #fff;
+  margin-bottom: 38px;
+}
+.install__row {
+  display: flex;
+  column-gap: 28px;
+  align-items: center;
+}
