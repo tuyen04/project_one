@@ -538,4 +538,28 @@ a {
   color: #2e80ce;
   transition: 0.5s;
 }
-/* ============== blog ==============================*/
+/* ============== appointment ==============================*/
+.appointment {
+  padding: 85px 0;
+}
+.appointment__inner {
+  padding: 100px 178px;
+  text-align: center;
+  background: #f6fbff;
+}
+.appointment__heading::after {
+  content: "";
+  display: inline-block;
+  width: 136px;
+  height: 2px;
+  background: #2e80ce;
+  margin: 18px auto 18px;
+}
+.appointment__desc {
+  max-width: 617px;
+  margin: 0 auto;
+}
+.appointment__btn {
+  margin-top: 38px;
+  display: inline-block;
+}
